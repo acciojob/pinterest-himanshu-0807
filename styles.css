@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.hero-image {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content p {
+    color: #555555;
+}
+
+.explore-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e60023;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+}
